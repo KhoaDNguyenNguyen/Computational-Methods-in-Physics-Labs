@@ -47,13 +47,13 @@ Investigates non-ideal charge carrier transport mechanisms in narrow-bandgap (Al
 ### [Module 02: Diffraction Grating Systematics & Hypothesis Testing](./02_diffraction_grating_systematics)
 Utilizes Weighted Least Squares (WLS) regression and non-parametric residual analysis to evaluate optical diffraction models. Systematically propagates spatial-to-angular uncertainties to formally test an ideal linear grating theory against a non-linear geometric zero-point offset hypothesis. The analysis mathematically falsifies the misalignment theory, proving that the latent residuals originate from higher-order optical aberrations rather than apparatus offset.
 
-###[Module 03: Ballistic Galvanometer Metrology & Error Propagation](./03_galvanometer_metrology)
+### [Module 03: Ballistic Galvanometer Metrology & Error Propagation](./03_galvanometer_metrology)
 Executes a multi-dimensional, fully vectorized OLS regression across a $100,000$-trial Monte Carlo framework to derive fundamental metrological constants. The investigation critically evaluates the empirical methodology, proving analytically how structural uncertainty in the instrument's ballistic constant dominantly amplifies subsequent capacitance error manifolds, presenting a rigorous argument for theoretical ratiometric measurement over step-wise calibration.
 
 ### [Module 04: RC Transient Dynamics & Error Deconvolution](./04_rc_transient_systematics)
 Investigates the transient temporal evolution of a series RC circuit. Resolves a profound statistical paradox where extracted initial currents deviate by $5.6\sigma$ while macroscopic time constants remain in near-perfect nominal agreement. By formulating a strict multi-variable partial-derivative error propagation matrix, the computational pipeline successfully deconvolves a compound systematic error, serving as a definitive demonstration of coincidental error cancellation and the perils of confirmation bias.
 
-###[Module 05: Tungsten Electrothermal Dynamics & Polynomial Falsification](./05_tungsten_electrothermal_dynamics)
+### [Module 05: Tungsten Electrothermal Dynamics & Polynomial Falsification](./05_tungsten_electrothermal_dynamics)
 Models the complex non-Ohmic interplay between Joule heating and temperature-dependent resistivity in an incandescent tungsten filament. Employs analytical Jacobian-based error propagation coupled with non-uniform domain sampling. The investigation decisively falsifies second-order empirical polynomial models - despite near-unity $R^2$ values - by revealing mathematically rigorous but physically absurd boundary violations, such as non-zero current intercepts and unphysical inverted resistance concavities.
 
 ---
